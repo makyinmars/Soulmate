@@ -12,6 +12,30 @@
 
 @layer components {
   .custom-button {
-    @apply rounded border-2 border-slate-600 bg-rose-200 py-2 px-4 text-lg shadow-md hover:bg-rose-300 hover:shadow-lg md:text-xl;
+    @apply rounded border-2 border-slate-600 bg-rose-200 py-2 px-4 text-lg shadow-md drop-shadow-lg hover:bg-rose-300 hover:shadow-lg md:text-xl;
+  }
+
+  .custom-h1 {
+    @apply text-2xl font-semibold tracking-tight md:text-4xl;
+  }
+
+  .custom-h2 {
+    @apply text-xl font-normal  tracking-tight md:text-2xl;
+  }
+
+  .custom-h3 {
+    @apply text-lg font-semibold tracking-tight text-rose-600 md:text-xl;
+  }
+
+  .custom-bg-clip {
+    @apply bg-gradient-to-r from-violet-800 to-rose-700 bg-clip-text text-transparent;
+  }
+
+  .custom-p {
+    @apply text-base md:text-xl;
+  }
+
+  .custom-container {
+    @apply container rounded border border-slate-800 bg-rose-200 p-8;
   }
 }

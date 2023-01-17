@@ -31,7 +31,7 @@ const Home: NextPage = () => {
           <h2 className="text-4xl font-bold tracking-tight sm:text-[4rem]">
             Features
           </h2>
-          <ul className="flex flex-col justify-center gap-4 rounded bg-rose-400 bg-opacity-30 p-4 text-lg md:text-2xl">
+          <ul className="flex flex-col justify-center gap-4 rounded bg-rose-400 bg-opacity-30 p-4 text-lg md:text-2xl drop-shadow-lg">
             <li>Countdown to your next anniversary</li>
             <li>Add special memories throughout the relationship</li>
             <li>Add special memories throughout the relationship</li>
