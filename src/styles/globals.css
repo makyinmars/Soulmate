@@ -38,4 +38,8 @@
   .custom-container {
     @apply container rounded border border-slate-800 bg-rose-200 p-8;
   }
+
+  .custom-input {
+    @apply rounded border-2 border-slate-600 bg-slate-100 py-2 px-4 text-lg shadow-md drop-shadow-lg hover:bg-rose-100 hover:shadow-lg focus:outline-none md:text-xl;
+  }
 }

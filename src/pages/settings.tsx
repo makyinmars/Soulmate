@@ -45,7 +45,12 @@ const Settings = ({
           </h2>
           <p className="custom-p">Your names: Franklin & Sydney</p>
           <p className="custom-p">Together since: Aug 14, 2020</p>
-          <input type="date" className="rounded bg-blue-400 p-2" />
+          <input
+            type="date"
+            className="custom-input rounded p-2"
+            required
+            onChange={(e) => console.log(e.target.value)}
+          />
           <h2 className="custom-h2 font-semibold text-rose-600">Picture</h2>
           <button className="custom-button text-base md:text-lg">
             Choose a custom picture
