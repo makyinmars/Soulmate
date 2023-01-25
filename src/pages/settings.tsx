@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 import type {
   GetServerSidePropsContext,
@@ -19,6 +20,8 @@ type SettingsInputs = {
 const Settings = ({
   userId,
 }: InferGetServerSidePropsType<typeof getServerSideProps>) => {
+  const [image, setImage] = useState<File | null>(null);
+
   const { register } = useForm<SettingsInputs>({
     defaultValues: {
       names: "",
